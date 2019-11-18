@@ -16,7 +16,7 @@ change-log:
 
 import time
 import unittest
-from tools.pytimer.pytimer import Timer
+from pytimer import Timer
 
 
 class TestTimerMethods(unittest.TestCase):
