@@ -18,8 +18,10 @@ class Timer:
     description:
     """
 
+    __version__ = 0.1
+
     def __init__(self, period, style="LOOP"):
-        self.version = 0.1
+
         self.millis = lambda: int(round(time.time() * 1000))
         self.period = period * 1.0
         self.__style = style
